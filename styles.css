@@ -32,6 +32,12 @@ nav p {
 
 }
 
+nav p:hover{
+
+    cursor: pointer;
+
+}
+
 nav ul {
 
     list-style: none;
@@ -49,6 +55,7 @@ nav li{
 nav li:hover{
 
     background-color: #26313f;
+    text-shadow: rgb(255, 255, 255) 1px 0 1px;
 
 }
 
@@ -111,3 +118,39 @@ nav a:visited{
     font-weight: 600;
 
 }
+
+.hero button:hover{
+
+    cursor:pointer;
+
+}
+
+.info h1{
+
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+
+}
+
+.infolist {
+
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.infolist img{
+
+    border-radius: 3%;
+
+}
+
+.infolist p{
+
+    text-align: center;
+    padding-top: 10px;
+
+}
+
