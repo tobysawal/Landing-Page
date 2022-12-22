@@ -14,7 +14,7 @@ nav{
     display:flex;
     justify-content: flex-end;
     align-items: center;
-    background: #1F2937;
+    background: #1c2531;
     color:white;
     height: 50px;
     margin: 0px;
@@ -151,6 +151,33 @@ nav a:visited{
 
     text-align: center;
     padding-top: 10px;
+    padding-bottom: 10px;
 
 }
 
+.quote{
+
+    display: flex;
+    flex-direction: column;
+    background: #E5E7EB;
+    color: #1F2937;
+    padding: 100px 500px;
+
+
+}
+
+.quote h2{
+
+    align-self: center;
+    size: 36px;
+    font-weight: lighter;
+
+}
+
+.quote h4{
+
+    align-self: flex-end;
+    padding-right: 20px;
+    padding-top: 40px;
+
+}
